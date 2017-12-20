@@ -1,24 +1,20 @@
-#TODO
-* Make understandable documentation
-* Add year attribute to all checkins before January, and start storing the current year for each checkin
-* Secret keys still aren't particularly secret
-
 # PhoenixNow
 This app facilitates signins and roll calls for schools that aren't especially centralized.
 
-The currently planned features are
+##Current Features
 
-* User accounts
-* Signins by geographic locations
-* Android support
+* Admin/User authentication
+* Admin Portal
+* User Attendance History
+* SSL Encryption
+* REST API / Android Mobile APP
+* Hosted on a AWS EC2 Instance
 
-# Setting up the dev environment
-To run, follow instructions here http://phoenixnow.readthedocs.io/en/latest/running.html
+##Important Files
 
-# Planned Deployment Features
-
-* TDD based development
-* Dockerfiles for deployment and local development (allows for easier Windows
-  development with Docker Toolbox)
-* Fabric/Ansible for server setup and deployment of Dockerfiles
-* Continuous testing integration
+* [Database](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/model.py)
+* [Routes](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/regular.py)
+* [Admin Routes](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/admin.py)
+* [REST API](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/backend.py)
+  
+![Homepage](https://imgur.com/a/jsgTe)
