@@ -1,7 +1,7 @@
 # PhoenixNow
-This app facilitates signins and roll calls for schools that aren't especially centralized.
+PhoenixNow is a website and Android mobile application that allows ECG students to sign in remotely for attendance.
 
-##Current Features
+## Current Features
 
 * Admin/User authentication
 * Admin Portal
@@ -10,11 +10,11 @@ This app facilitates signins and roll calls for schools that aren't especially c
 * REST API / Android Mobile APP
 * Hosted on a AWS EC2 Instance
 
-##Important Files
+## Important Files
 
 * [Database](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/model.py)
 * [Routes](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/regular.py)
 * [Admin Routes](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/admin.py)
 * [REST API](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/backend.py)
   
-![Homepage](https://imgur.com/a/jsgTe)
+![Homepage](https://imgur.com/a/jsgTe "homepage")
